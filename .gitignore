@@ -1,0 +1,17 @@
+# Ignorar dependencias y    
+node_modules/
+dist/
+
+# Ignorar secretos y logs
+.env
+*.log
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar el contenido de .vscode excepto configuraciones compartidas
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
